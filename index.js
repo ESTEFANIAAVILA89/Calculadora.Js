@@ -1,15 +1,11 @@
 function agregarALaPantalla(value) {
   document.getElementById("pantalla").value += value;
 }
-// function calcular() {
-//   const valorPantalla = document.getElementById("pantalla").value;
-//   const result = eval(valorPantalla);
-//   document.getElementById("pantalla").value = result;
-// }
+
 function calcular() {
   const valorPantalla = document.getElementById("pantalla").value;
 
-  // Validar que la expresión contiene solo números y operadores matemáticos
+  
   const expresionValida = /^[0-9+\-*/. ]+$/.test(valorPantalla);
 
   if (expresionValida) {
