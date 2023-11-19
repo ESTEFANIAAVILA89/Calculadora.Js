@@ -17,9 +17,10 @@ h2 {
 .calculadora {
   width: 314px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color:  #d1f2eb ;
   padding: 20px;
   border-radius: 5px;
+  border: #73c6b6 2px solid;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -29,6 +30,7 @@ h2 {
   font-size: 20px;
   margin-bottom: 10px;
   text-align: right;
+  border: #73c6b6 2px solid;
 }
 
 input[type="button"] {
@@ -37,7 +39,7 @@ input[type="button"] {
   margin-right: 5px;
   margin-bottom: 5px;
   font-size: 16px;
-  background-color: #eee;
+  background-color:  #d5dbdb ;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -49,4 +51,7 @@ input[type="button"]:hover {
 
 input[type="button"]:last-child {
   margin-right: 0;
+}
+.equal{
+  background-color:#73c6b6!important;
 }
